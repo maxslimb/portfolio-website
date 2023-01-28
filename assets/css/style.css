@@ -553,8 +553,16 @@ section {
   margin-right: 0;
 }
 
+.portfolio-wrap > img{
+  object-fit: contain;
+  aspect-ratio: 3/2;
+  width: 300;
+}
+
 .portfolio .portfolio-wrap {
   transition: 0.3s;
+  
+  
   position: relative;
   overflow: hidden;
   z-index: 1;
