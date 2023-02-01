@@ -4,7 +4,7 @@ require 'vendor/autoload.php';
 use Mailgun\Mailgun;
 
 # Instantiate the client.
-$mgClient = Mailgun::create('1b30c3fa29fac233a349e6dad156f4d3-75cd784d-22bfec70', 'https://API_HOSTNAME');
+$mgClient = Mailgun::create('', 'https://API_HOSTNAME');
 $domain = "kishanpatel.tech";
 $params = array(
   'from'    => 'mailgun@kishanpatel.tech',
