@@ -114,7 +114,7 @@ h6 {
 }
 
 #header .profile .social-links a:hover {
-  background: #149ddd;
+  background: #dd1414;
   color: #fff;
   text-decoration: none;
 }
@@ -221,8 +221,8 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/q1.jpeg") top center;
-  background-size: cover;
+  background: url("../img/final-bg.jpg") center;
+  background-size:cover;
 }
 
 #hero:before {
